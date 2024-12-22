@@ -1,0 +1,123 @@
+/* Algemene opmaak */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigatiebalk */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Content sectie */
+.content {
+    max-width: 1200px; /* Stelt de maximale breedte in op 800px */
+    margin: 0 auto; /* Centreert de container horizontaal */
+    padding: 20px; /* Optionele binnenmarge voor extra ruimte */
+    background-color: #bae4f4; /* Optioneel: een achtergrondkleur voor visuele duidelijkheid */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optioneel: subtiele schaduw */
+}
+/* Klasse voor het centreren van paragraaftekst */
+.paragraaf-gecentreerd {
+    text-align: center;
+    font-size: 18px;
+    line-height: 2;
+    color: #333;
+    
+}
+.gewoone-tekst {
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+}
+/* Klasse voor een gecentreerde, vetgedrukte en gekleurde titel */
+.titel-opvallend {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: #007BFF; /* Blauw, je kunt de kleur aanpassen naar wens */
+}
+/* Stijlen voor de lijst */
+ul.aangepaste-lijst {
+    list-style-type: disc; /* Zorgt voor standaard bulletpoints */
+    list-style-position: inside; /* Bulletpoints staan binnen de tekst */
+    padding: 0;
+    margin: 20px 0;
+    color: black; /* Kleur van de tekst en bulletpoints */
+}
+
+/* Stijlen voor de lijstitems */
+ul.aangepaste-lijst li {
+    font-weight: bold; /* Vetgedrukte tekst */
+    color: rgb(53, 52, 52); /* Kleur van de lijstitems en bulletpoints */
+    text-decoration: none; /* Geen onderstreping */
+    margin-bottom: 10px; /* Ruimte tussen items */
+}
+
+/* Stijlen voor hyperlinks binnen de lijst */
+ul.aangepaste-lijst li a {
+    color: inherit; /* Neemt de kleur over van de parent (lijstitem) */
+    font-weight: inherit; /* Neemt de vetgedrukte stijl over */
+    text-decoration: none; /* Geen onderstreping */
+}
+
+/* Optionele hover-stijl voor de links */
+ul.aangepaste-lijst li a:hover {
+    text-decoration: underline; /* Voeg een onderstreping toe bij hover */
+    color: #0056b3; /* Donkerdere tint bij hover */
+}
+
+
+.MainSite {
+    max-width: 1200px; /* Stelt de maximale breedte in op 800px */
+    margin: 0 auto; /* Centreert de container horizontaal */
+    padding: 20px; /* Optionele binnenmarge voor extra ruimte */
+    background-color: gainsboro; /* Optioneel: een achtergrondkleur voor visuele duidelijkheid */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optioneel: subtiele schaduw */  
+    border-radius: 20px;
+}
+
+.Block {
+    max-width: 1000px; /* Stelt de maximale breedte in op 800px */
+    margin: 0 auto; /* Centreert de container horizontaal */
+    align-self: auto;
+    padding: 1%; /* Optionele binnenmarge voor extra ruimte */
+    background-color: rgb(126, 175, 53); /* Optioneel: een achtergrondkleur voor visuele duidelijkheid */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optioneel: subtiele schaduw */  
+    border-radius: 20px;
+}
