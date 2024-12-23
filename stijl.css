@@ -124,4 +124,6 @@ ul.aangepaste-lijst li a:hover {
 
 .logo-container {
     position: absolute;
+    top: 5px;
+    left: 5px;
 }
