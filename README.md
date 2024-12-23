@@ -1,1 +1,1 @@
-https://www.atlanta-community.githun.io/home
+https://www.atlanta-community.github.io/home
